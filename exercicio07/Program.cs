@@ -12,23 +12,23 @@ public class Program
 
         if (nota >= 9.1 && nota <= 10.0)
         {
-            Console.WriteLine("Conseito A");
+            Console.WriteLine($"Sua nota 1 é: {nota1},\nSua nota 2 é: {nota2}\nA média entre elas foi de: {nota};\nO conseito foi A\nE você está aprovado.");
         }
         else if (nota >= 7.5 && nota <= 9.0)
         {
-            Console.WriteLine("Conseito B");
+            Console.WriteLine($"Sua nota 1 é: {nota1}\nSua nota 2 é: {nota2}\nA média entre elas é: {nota}\nO conseito é B\nE você está aprovado;");
         }
         else if (nota >= 6.0 && nota <= 7.4)
         {
-            Console.WriteLine("Conseito C");
+            Console.WriteLine($"Sua nota 1 é: {nota1}\nSua nota 2 é: {nota2}\nA média entre elas é: {nota}\nO conseito é C\nE você está aprovado;");
         }
         else if (nota >= 4.0 && nota <= 5.9)
         {
-            Console.WriteLine("Conseito D");
+            Console.WriteLine($"Sua nota 1 é: {nota1}\nSua nota 2 é: {nota2}\nA média entre elas é: {nota}\nO conseito é D\nE você está Reprovado;");
         }
         else if (nota <= 3.9 && nota >= 0.0)
         {
-            Console.WriteLine("Conseito E");
+            Console.WriteLine($"Sua nota 1 é: {nota1}\nSua nota 2 é: {nota2}\nA média entre elas é: {nota}\nO conseito é E\nE você está Reprovado;");
         }
         else
         {
