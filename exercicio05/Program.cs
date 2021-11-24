@@ -19,7 +19,7 @@ public class Program
             double wage1 = total * inss;
             double wage2 = total * fgts;
             double wageLiquid = total - wage1;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nA empresa depositará: R$" + wage2 + "de FGTS.\nSeu salário líquido total será de: R$" + wageLiquid);
+            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mez totaliza: R$-" + wage1 + "\nA empresa depositará: R$" + wage2 + "de FGTS.\nSeu salário líquido total será de: R$" + wageLiquid);
         }
         if (total <= 5000.00)
         {
@@ -27,7 +27,8 @@ public class Program
             double wage2 = total * fgts;
             double wage3 = total * 0.05;
             double wageLiquid = total - wage1 - wage3;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
+            double totalDiscount = wage1 + wage3;
+            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mês totalizam: R$-" + totalDiscount + ";\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
         }
         else if (total < 7500.00)
         {
@@ -35,7 +36,8 @@ public class Program
             double wage2 = total * fgts;
             double wage3 = total * 0.10;
             double wageLiquid = total - wage1 - wage3;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 10% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
+            double totalDiscount = wage1 + wage3;
+            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mês totalizam: R$-" + totalDiscount + ";\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
         }
         else
         {
@@ -43,7 +45,8 @@ public class Program
             double wage2 = total * fgts;
             double wage3 = total * 0.20;
             double wageLiquid = total - wage1 - wage3;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 20% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
+            double totalDiscount = wage1 + wage3;
+            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mês totalizam: R$-" + totalDiscount + ";\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
         }
     }
 }

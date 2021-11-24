@@ -19,7 +19,7 @@ public class program
         {
             Console.WriteLine("Escolha o produto 1.");
         }
-        else if (product2 < product1 && product2 < product3)
+        else if (product2 < product3)
         {
             Console.WriteLine("Escolha o produto 2.");
         }
