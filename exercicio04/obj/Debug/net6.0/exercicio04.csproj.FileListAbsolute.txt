@@ -1,0 +1,15 @@
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.csproj.AssemblyReference.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\bin\Debug\net6.0\exercicio04.exe
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\bin\Debug\net6.0\exercicio04.deps.json
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\bin\Debug\net6.0\exercicio04.runtimeconfig.json
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\bin\Debug\net6.0\exercicio04.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\bin\Debug\net6.0\ref\exercicio04.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\bin\Debug\net6.0\exercicio04.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\ref\exercicio04.dll
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.pdb
+C:\Users\pedro\OneDrive\Área de Trabalho\FormacaoBackEndJavaECSharp\DotNet\ListaExercicio01\exercicio04\obj\Debug\net6.0\exercicio04.genruntimeconfig.cache
