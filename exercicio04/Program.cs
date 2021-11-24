@@ -11,22 +11,26 @@ public class Program
         if (Wage <= 2800.00)
         {
             double encrease = Wage * 0.20;
-            Console.WriteLine("O seu almento é de 20%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + Wage + encrease);
+            double finalWage = Wage + encrease;
+            Console.WriteLine("O seu almento é de 20%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + finalWage);
         }
         else if (Wage <= 7000.00)
         {
             double encrease = Wage * 0.15;
-            Console.WriteLine("O seu almento é de 15%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + Wage + encrease);
+            double finalWage = Wage + encrease;
+            Console.WriteLine("O seu almento é de 15%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + finalWage);
         }
         else if (Wage <= 15000.00)
         {
             double encrease = Wage * 0.10;
-            Console.WriteLine("O seu almento é de 10%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + Wage + encrease);
+            double finalWage = Wage + encrease;
+            Console.WriteLine("O seu almento é de 10%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + finalWage);
         }
         else
         {
             double encrease = Wage * 0.05;
-            Console.WriteLine("O seu almento é de 5%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + Wage + encrease);
+            double finalWage = Wage + encrease;
+            Console.WriteLine("O seu almento é de 5%. Seu salário de R$ " + Wage + "terá um acrécimo de R$ " + encrease + "E no fim seu salário será de " + finalWage);
         }
     }
 }
