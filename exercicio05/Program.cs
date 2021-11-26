@@ -1,52 +1,60 @@
 ﻿using System;
 
-public class Program
+namespace Exercicio05
 {
-    public static void Main(string[] args)
+    public class Program
     {
-        double inss = 0.10;
-        double fgts = 0.11;
-        Console.WriteLine("Olá, vou calcular os dados de seu salário.\nVamos lá, você deve digitar o número de horas trabalhadas e quanto vale a hora trabalhada. Digite o valor da hora trabalhada: ");
-        string? valueHour = Console.ReadLine();
-        double valueHours = Convert.ToDouble(valueHour);
-        Console.WriteLine("Agora, quantas horas você trabalhou este mês?");
-        string? workedHour = Console.ReadLine();
-        double workedHours = Convert.ToDouble(workedHour);
-
-        double total = valueHours * workedHours;
-        if (total < 2000.00)
+        public static void Main(string[] args)
         {
-            double wage1 = total * inss;
-            double wage2 = total * fgts;
-            double wageLiquid = total - wage1;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mez totaliza: R$-" + wage1 + "\nA empresa depositará: R$" + wage2 + "de FGTS.\nSeu salário líquido total será de: R$" + wageLiquid);
-        }
-        if (total <= 5000.00)
-        {
-            double wage1 = total * inss;
-            double wage2 = total * fgts;
-            double wage3 = total * 0.05;
-            double wageLiquid = total - wage1 - wage3;
-            double totalDiscount = wage1 + wage3;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mês totalizam: R$-" + totalDiscount + ";\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
-        }
-        else if (total < 7500.00)
-        {
-            double wage1 = total * inss;
-            double wage2 = total * fgts;
-            double wage3 = total * 0.10;
-            double wageLiquid = total - wage1 - wage3;
-            double totalDiscount = wage1 + wage3;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mês totalizam: R$-" + totalDiscount + ";\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
-        }
-        else
-        {
-            double wage1 = total * inss;
-            double wage2 = total * fgts;
-            double wage3 = total * 0.20;
-            double wageLiquid = total - wage1 - wage3;
-            double totalDiscount = wage1 + wage3;
-            Console.WriteLine("Este mez, seu salário, SEM DESCONTOS,  será de: R$" + total + "\nO  o desconto de 10% do INSS totaliza: -R$" + wage1 + ".\nO total de descontos deste mês totalizam: R$-" + totalDiscount + ";\nA empresa depositará: R$" + wage2 + "de FGTS.\nO desconto de IR de 5% representa R$-" + wage3 + ";\nSeu salário líquido total será de: R$" + wageLiquid);
+            Console.WriteLine("Programa cálculo folha de pagamento:");
+            double valorHora = 0;
+            int qtdHoras = 0;
+            while (valorHora <= 0 || qtdHoras <= 0)
+            {
+                try
+                {
+                    Console.WriteLine("Informe o valor da sua hora:");
+                    valorHora = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Informe a quantidade de horas trabalhadas no mês:");
+                    qtdHoras = Convert.ToInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Valor(es) inválido(s).");
+                }
+            }
+            double salarioBruto = qtdHoras * valorHora;
+            double salarioLiquido, totalDescontos;
+            double descontoIr;
+            double descontoINSS = 10.0;
+            double valorDescontoINSS = (descontoINSS / 100) * salarioBruto;
+            double percentualFGTS = 11.0;
+            double valorFGTS = (percentualFGTS / 100) * salarioBruto; ;
+            if (salarioBruto <= 2000)
+            {
+                descontoIr = 0;
+            }
+            else if (salarioBruto <= 5000)
+            {
+                descontoIr = 5.0;
+            }
+            else if (salarioBruto <= 7500)
+            {
+                descontoIr = 10.0;
+            }
+            else
+            {
+                descontoIr = 20.0;
+            }
+            double valorDescontoIr = (descontoIr / 100) * salarioBruto;
+            totalDescontos = valorDescontoIr + valorDescontoINSS;
+            Console.WriteLine("Salário bruto: " + salarioBruto);
+            Console.WriteLine("Desconto IR: " + descontoIr + "%, r$" + valorDescontoIr);
+            Console.WriteLine("Desconto INSS: " + descontoINSS + "%, r$" + valorDescontoINSS);
+            Console.WriteLine("Fgts: " + percentualFGTS + "%, r$" + valorFGTS);
+            Console.WriteLine("Total de descontos: r$" + totalDescontos);
+            salarioLiquido = salarioBruto - totalDescontos;
+            Console.WriteLine("Salário líquido: r$" + salarioLiquido);
         }
     }
 }

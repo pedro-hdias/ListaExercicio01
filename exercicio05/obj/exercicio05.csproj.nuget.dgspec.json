@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj": {}
+    "C:\\Users\\pedro\\onedrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj": {
+    "C:\\Users\\pedro\\onedrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj",
+        "projectUniqueName": "C:\\Users\\pedro\\onedrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj",
         "projectName": "exercicio05",
-        "projectPath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj",
+        "projectPath": "C:\\Users\\pedro\\onedrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\exercicio05.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pedro\\OneDrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\obj\\",
+        "outputPath": "C:\\Users\\pedro\\onedrive\\Área de Trabalho\\FormacaoBackEndJavaECSharp\\DotNet\\ListaExercicio01\\exercicio05\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
